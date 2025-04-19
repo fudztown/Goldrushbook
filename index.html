@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Rush: Finding Value in the Modern Business Landscape</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #B78628 0%, #FCC201 50%, #B78628 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-button {
+            background: linear-gradient(90deg, #B78628 0%, #FCC201 50%, #B78628 100%);
+        }
+        .chapter-preview {
+            height: 0;
+            overflow: hidden;
+            transition: height 0.5s ease-in-out;
+        }
+        .chapter-preview.active {
+            height: auto;
+        }
+        .quote-box {
+            border-left: 4px solid #FCC201;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Hero Section -->
+    <header class="bg-gray-900 text-white">
+        <div class="container mx-auto px-4 py-16 md:py-24">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                        <span class="gradient-text">GOLD RUSH</span>
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl mb-6">Finding Value in the Modern Business Landscape</h2>
+                    <p class="text-lg mb-8">Discover how to identify, organize, deliver, and measure value in your organization with this groundbreaking guide to business transformation.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <button class="gold-button text-gray-900 font-bold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                            Pre-Order Now
+                        </button>
+                        <button id="learnMoreBtn" class="bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-lg hover:bg-white hover:text-gray-900 transition duration-300">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-lg transform rotate-3"></div>
+                        <img src="https://placehold.co/600x800/333333/FFFFFF?text=GOLD+RUSH" alt="Gold Rush Book Cover" class="relative rounded-lg shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Value Proposition Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Why Read <span class="gradient-text">Gold Rush</span>?</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-yellow-500 text-4xl mb-4">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Discover Hidden Value</h3>
+                    <p>Learn proven techniques to identify untapped value in your organization, just as prospectors discovered gold veins hidden beneath the surface.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-yellow-500 text-4xl mb-4">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Organize for Success</h3>
+                    <p>Restructure your organization around value streams instead of functions to maximize efficiency and eliminate waste in your processes.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-yellow-500 text-4xl mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Measure What Matters</h3>
+                    <p>Apply practical measurement techniques based on Douglas Hubbard's Applied Information Economics to make better decisions with less uncertainty.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapter Previews Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Chapter Previews</h2>
+            
+            <!-- Chapter 1 Preview -->
+            <div class="mb-8 bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-gray-800 text-white p-4 cursor-pointer chapter-toggle" data-target="chapter1">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold">Chapter 1: Introduction - The Modern Gold Rush</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </div>
+                </div>
+                <div id="chapter1" class="chapter-preview p-6">
+                    <div class="quote-box pl-4 italic text-gray-700 mb-6">
+                        "In the modern business landscape, the gold rush isn't about finding literal gold—it's about discovering where value truly exists in your organization."
+                    </div>
+                    <p class="mb-4">The gold rush of the 1800s was characterized by prospectors who left everything behind in search of fortune. Today's business leaders are modern prospectors, searching for value in increasingly complex organizational landscapes.</p>
+                    <p class="mb-4">This chapter introduces the core concept that will guide you through this book: just as gold miners needed to develop systematic approaches to find and extract gold efficiently, today's organizations need frameworks to identify, organize around, deliver, and measure value.</p>
+                    <div class="mt-6 text-center">
+                        <img src="https://placehold.co/800x400/FFDF00/333333?text=The+Modern+Gold+Rush" alt="The Modern Gold Rush" class="rounded-lg mx-auto">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Chapter 2 Preview -->
+            <div class="mb-8 bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-gray-800 text-white p-4 cursor-pointer chapter-toggle" data-target="chapter2">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold">Chapter 2: Organizing Around Value</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </div>
+                </div>
+                <div id="chapter2" class="chapter-preview p-6">
+                    <div class="quote-box pl-4 italic text-gray-700 mb-6">
+                        "The most successful organizations don't just find gold—they organize their entire operation around extracting it efficiently."
+                    </div>
+                    <p class="mb-4">Traditional organizational structures often create silos that impede value flow. This chapter explores how to transition from functional hierarchies to value stream networks that optimize the end-to-end delivery of value to customers.</p>
+                    <p class="mb-4">You'll discover how companies like Amazon and Toyota have reorganized their operations to focus on value streams, resulting in dramatic improvements in efficiency, innovation, and customer satisfaction.</p>
+                    <div class="mt-6 text-center">
+                        <img src="https://placehold.co/800x400/FFDF00/333333?text=Functional+vs+Value+Stream+Organization" alt="Organizational Structures" class="rounded-lg mx-auto">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Chapter 3 Preview -->
+            <div class="mb-8 bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-gray-800 text-white p-4 cursor-pointer chapter-toggle" data-target="chapter3">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold">Chapter 3: The Value Framework</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </div>
+                </div>
+                <div id="chapter3" class="chapter-preview p-6">
+                    <div class="quote-box pl-4 italic text-gray-700 mb-6">
+                        "A comprehensive value framework is your map to the gold fields—without it, you're just digging randomly and hoping for luck."
+                    </div>
+                    <p class="mb-4">This chapter introduces the complete Value Framework with its four interconnected components: Value Identification, Value Organization, Value Delivery, and Value Measurement.</p>
+                    <p class="mb-4">Learn how these components work together to create a virtuous cycle of continuous improvement and value creation. The framework provides a practical approach that can be applied to organizations of any size and in any industry.</p>
+                    <div class="mt-6 text-center">
+                        <img src="https://placehold.co/800x400/FFDF00/333333?text=The+Value+Framework" alt="The Value Framework" class="rounded-lg mx-auto">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Chapter 4 Preview -->
+            <div class="mb-8 bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-gray-800 text-white p-4 cursor-pointer chapter-toggle" data-target="chapter4">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold">Chapter 4: Measuring What Matters</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </div>
+                </div>
+                <div id="chapter4" class="chapter-preview p-6">
+                    <div class="quote-box pl-4 italic text-gray-700 mb-6">
+                        "If you can't measure it, you can't improve it. But contrary to popular belief, everything that matters can be measured."
+                    </div>
+                    <p class="mb-4">Drawing on Douglas Hubbard's groundbreaking work in Applied Information Economics, this chapter challenges the common misconception that certain things are "immeasurable" and provides practical techniques for measuring even the most intangible aspects of value.</p>
+                    <p class="mb-4">You'll learn how to apply calibrated estimation, decomposition, and other measurement techniques to reduce uncertainty and make better decisions about where to invest your organization's resources.</p>
+                    <div class="mt-6 text-center">
+                        <img src="https://placehold.co/800x400/FFDF00/333333?text=Measurement+Techniques" alt="Measurement Techniques" class="rounded-lg mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">What Industry Leaders Are Saying</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-700 p-8 rounded-lg">
+                    <div class="text-yellow-400 text-4xl mb-4">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="italic mb-6">"Gold Rush provides a practical framework that has transformed how we think about value creation in our organization. The measurement techniques alone have saved us millions in misallocated resources."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-500 rounded-full mr-4"></div>
+                        <div>
+                            <p class="font-bold">Sarah Johnson</p>
+                            <p class="text-sm text-gray-300">CTO, Global Tech Innovations</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-700 p-8 rounded-lg">
+                    <div class="text-yellow-400 text-4xl mb-4">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="italic mb-6">"I've read dozens of business transformation books, but Gold Rush stands apart with its clear, actionable framework and compelling gold rush metaphor. It's already becoming required reading for our leadership team."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-500 rounded-full mr-4"></div>
+                        <div>
+                            <p class="font-bold">Michael Chen</p>
+                            <p class="text-sm text-gray-300">CEO, Adaptive Solutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About the Author Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0">
+                    <img src="https://placehold.co/400x400/333333/FFFFFF?text=Pete+Town" alt="Pete Town" class="rounded-full mx-auto shadow-xl">
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">About the Author</h2>
+                    <h3 class="text-xl font-bold mb-3">Pete Town</h3>
+                    <p class="mb-4">Pete Town is a renowned business transformation expert with over 20 years of experience helping organizations discover and optimize their value streams. As a former CTO and current strategic advisor to Fortune 500 companies, Pete has witnessed firsthand the challenges organizations face when trying to identify and deliver value in complex environments.</p>
+                    <p class="mb-4">Drawing on his background in both technology and business management, Pete has developed the Value Framework presented in Gold Rush through years of practical application and refinement. His approach combines insights from lean manufacturing, agile development, and modern measurement science to create a comprehensive system for value optimization.</p>
+                    <p class="mb-6">Pete is also a sought-after speaker and educator who has taught at leading business schools and technology conferences worldwide.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-700 hover:text-yellow-500 transition duration-300">
+                            <i class="fab fa-linkedin text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-700 hover:text-yellow-500 transition duration-300">
+                            <i class="fab fa-twitter text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-700 hover:text-yellow-500 transition duration-300">
+                            <i class="fas fa-globe text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Gold Rush?</h2>
+            <p class="text-lg mb-8 max-w-3xl mx-auto">Join thousands of forward-thinking leaders who are transforming their organizations with the Value Framework. Pre-order your copy today and receive exclusive access to bonus materials, including worksheets, case studies, and a private community of practice.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <button class="gold-button text-gray-900 font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                    Pre-Order Now
+                </button>
+                <button class="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-gray-900 transition duration-300">
+                    Download Sample Chapter
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">
+                        <span class="gradient-text">GOLD RUSH</span>
+                    </h3>
+                    <p class="max-w-md">Finding Value in the Modern Business Landscape</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Stay Updated</h4>
+                    <div class="flex">
+                        <input type="email" placeholder="Your email address" class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-800">
+                        <button class="gold-button text-gray-900 font-bold px-4 py-2 rounded-r-lg">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-sm text-center">
+                <p>&copy; 2025 Pete Town. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scroll for "Learn More" button
+            document.getElementById('learnMoreBtn').addEventListener('click', function() {
+                document.querySelector('.py-16.bg-white').scrollIntoView({ 
+                    behavior: 'smooth' 
+                });
+            });
+            
+            // Chapter preview toggles
+            const toggles = document.querySelectorAll('.chapter-toggle');
+            toggles.forEach(toggle => {
+                toggle.addEventListener('click', function() {
+                    const targetId = this.getAttribute('data-target');
+                    const target = document.getElementById(targetId);
+                    const icon = this.querySelector('i');
+                    
+                    if (target.classList.contains('active')) {
+                        target.classList.remove('active');
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        target.classList.add('active');
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
